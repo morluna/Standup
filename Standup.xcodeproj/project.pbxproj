@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D040E702383964D00C3673E /* Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D040E6F2383964D00C3673E /* Create.swift */; };
+		8DBAC8E823F0E6C900DA55F4 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBAC8E723F0E6C900DA55F4 /* TextView.swift */; };
+		8DBD45E52383AAB700AD9530 /* DailyStandupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45E42383AAB700AD9530 /* DailyStandupView.swift */; };
+		8DBD45E72383ABC700AD9530 /* DailySurveyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45E62383ABC700AD9530 /* DailySurveyPickerView.swift */; };
+		8DBD45EA2383AC5F00AD9530 /* DailySurveyInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45E92383AC5F00AD9530 /* DailySurveyInputView.swift */; };
+		8DBD45EC2383ACAB00AD9530 /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45EB2383ACAB00AD9530 /* QuoteView.swift */; };
+		8DBD45EE2383ACDC00AD9530 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45ED2383ACDC00AD9530 /* DateView.swift */; };
+		8DBD45F02383ACF600AD9530 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45EF2383ACF600AD9530 /* ActionButton.swift */; };
+		8DBD45F52384DCF000AD9530 /* DailyTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45F42384DCF000AD9530 /* DailyTask.swift */; };
+		8DBD45FB2384FAF300AD9530 /* StandupContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45FA2384FAF300AD9530 /* StandupContainerView.swift */; };
+		8DBD45FD23861CFE00AD9530 /* StandupHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45FC23861CFE00AD9530 /* StandupHistoryView.swift */; };
+		8DBD460023863A1B00AD9530 /* DailyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBD45FF23863A1B00AD9530 /* DailyDetailView.swift */; };
 		8DEF5B112383914200E9966F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B102383914200E9966F /* AppDelegate.swift */; };
 		8DEF5B132383914200E9966F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B122383914200E9966F /* SceneDelegate.swift */; };
 		8DEF5B152383914200E9966F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B142383914200E9966F /* ViewController.swift */; };
@@ -16,6 +28,7 @@
 		8DEF5B202383914300E9966F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DEF5B1E2383914300E9966F /* LaunchScreen.storyboard */; };
 		8DEF5B2B2383914300E9966F /* StandupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B2A2383914300E9966F /* StandupTests.swift */; };
 		8DEF5B362383914400E9966F /* StandupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B352383914400E9966F /* StandupUITests.swift */; };
+		8DEF5B452383921F00E9966F /* DailyReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DEF5B442383921F00E9966F /* DailyReflectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D040E6F2383964D00C3673E /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		8DBAC8E723F0E6C900DA55F4 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		8DBD45E42383AAB700AD9530 /* DailyStandupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyStandupView.swift; sourceTree = "<group>"; };
+		8DBD45E62383ABC700AD9530 /* DailySurveyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurveyPickerView.swift; sourceTree = "<group>"; };
+		8DBD45E92383AC5F00AD9530 /* DailySurveyInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySurveyInputView.swift; sourceTree = "<group>"; };
+		8DBD45EB2383ACAB00AD9530 /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
+		8DBD45ED2383ACDC00AD9530 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		8DBD45EF2383ACF600AD9530 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		8DBD45F42384DCF000AD9530 /* DailyTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTask.swift; sourceTree = "<group>"; };
+		8DBD45FA2384FAF300AD9530 /* StandupContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupContainerView.swift; sourceTree = "<group>"; };
+		8DBD45FC23861CFE00AD9530 /* StandupHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupHistoryView.swift; sourceTree = "<group>"; };
+		8DBD45FF23863A1B00AD9530 /* DailyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyDetailView.swift; sourceTree = "<group>"; };
 		8DEF5B0D2383914200E9966F /* Standup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Standup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEF5B102383914200E9966F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DEF5B122383914200E9966F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +76,8 @@
 		8DEF5B312383914400E9966F /* StandupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StandupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DEF5B352383914400E9966F /* StandupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandupUITests.swift; sourceTree = "<group>"; };
 		8DEF5B372383914400E9966F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DEF5B432383918C00E9966F /* Standup.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Standup.entitlements; sourceTree = "<group>"; };
+		8DEF5B442383921F00E9966F /* DailyReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyReflectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +105,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DBD45E22383AA7300AD9530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DEF5B432383918C00E9966F /* Standup.entitlements */,
+				8DEF5B102383914200E9966F /* AppDelegate.swift */,
+				8DEF5B122383914200E9966F /* SceneDelegate.swift */,
+				8DEF5B1C2383914300E9966F /* Assets.xcassets */,
+				8DEF5B1E2383914300E9966F /* LaunchScreen.storyboard */,
+				8DEF5B212383914300E9966F /* Info.plist */,
+				8DEF5B192383914200E9966F /* Standup.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBD45E32383AA9B00AD9530 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8D040E6F2383964D00C3673E /* Create.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8DBD45E82383AC4C00AD9530 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD45E62383ABC700AD9530 /* DailySurveyPickerView.swift */,
+				8DBD45E92383AC5F00AD9530 /* DailySurveyInputView.swift */,
+				8DBD45EB2383ACAB00AD9530 /* QuoteView.swift */,
+				8DBD45ED2383ACDC00AD9530 /* DateView.swift */,
+				8DBD45EF2383ACF600AD9530 /* ActionButton.swift */,
+				8DBAC8E723F0E6C900DA55F4 /* TextView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8DBD45F62384EA7200AD9530 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				8DEF5B442383921F00E9966F /* DailyReflectionView.swift */,
+				8DBD45E42383AAB700AD9530 /* DailyStandupView.swift */,
+				8DBD45FC23861CFE00AD9530 /* StandupHistoryView.swift */,
+				8DBD45FF23863A1B00AD9530 /* DailyDetailView.swift */,
+				8DBD45FA2384FAF300AD9530 /* StandupContainerView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		8DBD45F72384EA8A00AD9530 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DBD45F42384DCF000AD9530 /* DailyTask.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		8DEF5B042383914200E9966F = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +183,13 @@
 		8DEF5B0F2383914200E9966F /* Standup */ = {
 			isa = PBXGroup;
 			children = (
-				8DEF5B102383914200E9966F /* AppDelegate.swift */,
-				8DEF5B122383914200E9966F /* SceneDelegate.swift */,
+				8DBD45E22383AA7300AD9530 /* Supporting Files */,
+				8DBD45E32383AA9B00AD9530 /* Utilities */,
+				8DBD45E82383AC4C00AD9530 /* UI */,
+				8DBD45F62384EA7200AD9530 /* Pages */,
+				8DBD45F72384EA8A00AD9530 /* Models */,
 				8DEF5B142383914200E9966F /* ViewController.swift */,
 				8DEF5B162383914200E9966F /* Main.storyboard */,
-				8DEF5B1C2383914300E9966F /* Assets.xcassets */,
-				8DEF5B1E2383914300E9966F /* LaunchScreen.storyboard */,
-				8DEF5B212383914300E9966F /* Info.plist */,
-				8DEF5B192383914200E9966F /* Standup.xcdatamodeld */,
 			);
 			path = Standup;
 			sourceTree = "<group>";
@@ -262,10 +343,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DBD45E72383ABC700AD9530 /* DailySurveyPickerView.swift in Sources */,
+				8DBD45EC2383ACAB00AD9530 /* QuoteView.swift in Sources */,
+				8DBD45FB2384FAF300AD9530 /* StandupContainerView.swift in Sources */,
 				8DEF5B152383914200E9966F /* ViewController.swift in Sources */,
+				8DBD45F52384DCF000AD9530 /* DailyTask.swift in Sources */,
+				8DBD45EE2383ACDC00AD9530 /* DateView.swift in Sources */,
+				8DEF5B452383921F00E9966F /* DailyReflectionView.swift in Sources */,
 				8DEF5B112383914200E9966F /* AppDelegate.swift in Sources */,
+				8DBD45FD23861CFE00AD9530 /* StandupHistoryView.swift in Sources */,
+				8DBD45E52383AAB700AD9530 /* DailyStandupView.swift in Sources */,
+				8DBD460023863A1B00AD9530 /* DailyDetailView.swift in Sources */,
+				8D040E702383964D00C3673E /* Create.swift in Sources */,
+				8DBD45EA2383AC5F00AD9530 /* DailySurveyInputView.swift in Sources */,
 				8DEF5B132383914200E9966F /* SceneDelegate.swift in Sources */,
+				8DBAC8E823F0E6C900DA55F4 /* TextView.swift in Sources */,
 				8DEF5B1B2383914200E9966F /* Standup.xcdatamodeld in Sources */,
+				8DBD45F02383ACF600AD9530 /* ActionButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,15 +532,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Standup/Supporting Files/Standup.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = KD674EGM5X;
-				INFOPLIST_FILE = Standup/Info.plist;
+				INFOPLIST_FILE = "Standup/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renamari.Standup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,15 +553,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Standup/Supporting Files/Standup.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = KD674EGM5X;
-				INFOPLIST_FILE = Standup/Info.plist;
+				INFOPLIST_FILE = "Standup/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.renamari.Standup;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
